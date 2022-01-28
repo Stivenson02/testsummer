@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
     return $request->user();
 });*/
 
-Route::post('/register','API/AuthController@register');
-Route::post('/login','API/AuthController@register');
+
+Route::post('/register','API\AuthController@register');
+Route::post('/login','API\LoginController@login');
 
