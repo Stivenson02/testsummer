@@ -67,7 +67,7 @@ Se creo un mini CRUD para probar su funcionalidad:
 
 En el archivo de _routers/api.php_, por medio de un midleware se controla que el usuario este logueado, por ende para las siguientes rutas es necesario pasar en los header el campo **Authorization** con "Beare "+Token 
 
-###Rutas con auth
+##Rutas con auth
 
 - GET api/user: Retorna la informacion del usario logueado
 - POST api/user_detail: Existe una relacion Uno a Uno entre users y users_detail, en esta tabla se almacena informacion extra
