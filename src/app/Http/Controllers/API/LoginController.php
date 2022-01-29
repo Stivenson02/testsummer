@@ -13,7 +13,7 @@ class LoginController extends Controller
     {
         $credentials = $request->only('email', 'password');
 
-        if (!Auth::attempt()){
+        if (!Auth::attempt($credentials)){
             return response([
                 "message"=>"usuario y/o contraseña es incorrecta."
             ],401);
