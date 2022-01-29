@@ -1,7 +1,7 @@
 # testsummer
 
 # Instalar la prueba
-- El primero paso es descargar el codigo con las sentencias de GIT
+- El primer paso es descargar el codigo con las sentencias de GIT
 - Se debe tener inatalado
     - **COMPOSER**
     - **DOCKER**
