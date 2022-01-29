@@ -43,7 +43,7 @@ estas se visualizan en la carpeta routers/api.php
     "password_confirmation":"12345678"
     }`
 
-![](https://raw.githubusercontent.com/Stivenson02/testsummer/tree/main/src/resources/img/img1.png)
+![](https://raw.githubusercontent.com/Stivenson02/testsummer/main/src/resources/imgs/img1.png)
 
 - POST api/login
   -Este espera un objeto con el correo y la contraseña
@@ -56,7 +56,7 @@ estas se visualizan en la carpeta routers/api.php
 
 al igual que registre retorna la informacion del usuario y el token
 
-![](https://raw.githubusercontent.com/Stivenson02/testsummer/tree/main/src/resources/img/img2.png)
+![](https://raw.githubusercontent.com/Stivenson02/testsummer/main/src/resources/imgs/img2.png)
 
 
 La logica del login por REST API se encuentra en los controlladores dentro de la carpeta API
@@ -76,8 +76,7 @@ El controlador de las rutas es Users/UserController.php en el se encuentra la lo
 
 la relacion de la tabla se encuentra en el modelo Models/UserDetail.php
 
-![](https://raw.githubusercontent.com/Stivenson02/testsummer/tree/main/src/resources/img/img3.png)
-![](https://raw.githubusercontent.com/Stivenson02/testsummer/tree/main/src/resources/img/img4.png)
-![](https://raw.githubusercontent.com/Stivenson02/testsummer/tree/main/src/resources/img/img5.png)
-
+![](https://raw.githubusercontent.com/Stivenson02/testsummer/main/src/resources/imgs/img3.png)
+![](https://raw.githubusercontent.com/Stivenson02/testsummer/main/src/resources/imgs/img5.png)
+![](https://raw.githubusercontent.com/Stivenson02/testsummer/main/src/resources/imgs/img4.png)
 
