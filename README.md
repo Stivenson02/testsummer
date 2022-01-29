@@ -7,7 +7,12 @@
     - **DOCKER**
 
 ##Paso a paso
-- Una vez descargado el repositorio entre desde consola a la carpeta SRC e instale composer, para poder instalar las dependencias de laravel
+- Una vez descargado el repositorio cree una carpeta llamada mysql
+
+
+    mkdir mysql
+  
+-  entre desde consola a la carpeta SRC e instale composer, para poder instalar las dependencias de laravel
 
 
     cd src
